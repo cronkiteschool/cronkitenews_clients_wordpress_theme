@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Cronkite News Clients
+ Theme URI:    http://cronkitenews.com/clients
+ Description:  asu_s Child Theme
+ Author:       Jeremy Leggat
+ Author URI:   http://jrnops.jmc.asu.edu
+ Template:     asu_s
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: black, white, maroon, gold, grey, one-column, two-columns,full-width-template,  right-sidebar, left-sidebar, flexible-width, theme-options, custom-menu, responsive-layout
+ Text Domain:  cronkitenews_clients
+*/
+
+@media screen and (min-width: 37.5em) {
+	.entry-title {
+		font-size: 1.25em;
+		text-align: center;
+	}
+	.entry-content {
+		font-size: .80em;
+	}
+}
+
+.post-navigation {
+	font-size: 80%;
+}
+.post-navigation a {
+	display: inline-block;
+	max-width: 225px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
